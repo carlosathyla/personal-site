@@ -75,6 +75,10 @@ a {
     border: none;
 }
 
+footer {
+    text-align: center;
+}
+
 /* .mail{
     list-style-image: url("email.gif");
     width: "200";
