@@ -1,0 +1,94 @@
+body {
+    background: #828181;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
+    margin: auto;
+    border: none;
+}
+
+.photo{
+    border-radius: 30% ;
+    width: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#title, .subtitle, .post_title{
+    color: #03034b;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
+    color: #03034b;
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.post{
+    background: #7f8082;
+    padding: 15px 15px 15px 15px;
+    border: 3px solid #03034b;
+    margin-bottom: 10px;
+    border-radius: 2px 30px;
+    
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+.contact_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact_list li a {
+    color: white;
+    
+}
+
+.button{
+    background-color: #828181;
+    border: none;
+}
+
+/* .mail{
+    list-style-image: url("email.gif");
+    width: "200";
+} 
+
+.linkedin {
+    list-style-image: url("linkedin.gif");
+}
+
+.git {
+    list-style-image: url("github.gif");
+}
+
+.whatsapp {
+    list-style-image: url("WhatsApp Logo Quadrado Ícone PNG Sem Fundo.png");
+    
+} */
